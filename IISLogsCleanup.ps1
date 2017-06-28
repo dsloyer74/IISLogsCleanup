@@ -91,6 +91,7 @@ Change Log
 V1.00, 7/04/2014, Initial version
 V1.01, 8/08/2015, Fix for regional date format issues, Zip file locking issues.
 V1.02, 25/08/2015, Fixed typo in a variable
+V1.03, 06/28/2017, Fixed typo in a variable - DSloyer74
 #>
 
 
@@ -200,7 +201,7 @@ $timestamp = Get-Date -DisplayHint Time
 "$timestamp $logstring0" | Out-File $output
 Write-Logfile $logstring1
 Write-Logfile "  $now"
-Write-Logfile $logstring0w
+Write-Logfile $logstring0
 
 
 #Check whether IIS Logs path exists, exit if it does not
